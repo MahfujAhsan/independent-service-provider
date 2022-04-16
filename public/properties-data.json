@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "6258c454c56933ab42b68b9c",
+        "name": "10800 WILSHIRE BLVD # 904",
+        "price": "3,995,000",
+        "details": "Gorgeous 3 bedroom and 3.5 bathroom condominium in the coveted full-service building, the Californian. This south-east corner residence offers approx. 3,280 sq.ft. of living space with large open living area and dining room, high ceilings, floor-to-ceiling windows and doors overlooking stunning city views, and an extra-large balcony with a sitting area for al fresco dining. The primary suite features grand dual walk-in closets and a large spa tub. The spacious kitchen features custom-made cabinets, center island with breakfast bar, and high-end appliances. Custom shades, automatic blinds, and gorgeous hardwood floors throughout make a chic statement. Enjoy the best of the best in this luxury building on the Wilshire Corridor with high-end amenities including 24-hour valet and security, screening room, large gym, pool, private cabanas, spa, conference room, personal temperature-controlled wine storage, and direct elevator entry to your private foyer.",
+        "img": "https://i.ibb.co/dM9q0dX/property1.jpg"
+    },
+    {
+        "_id": "6258c4540584f58ea1269cf0",
+        "name": "1479 CARLA RDG",
+        "price": "12,995,000",
+        "details": "Extraordinary Trousdale Contemporary designed by Jon Mandl with spectacular city views. AVAILBLE FOR LEASE SHORT TERM OR LONG TERM, FURNISHED. The architecture of this fabulous home delivers clean lines with walls of glass & Fleetwood doors throughout that seamlessly fuse to integrate interior & exterior spaces & offer the ultimate Beverly Hills lifestyle w/ideal space for entertaining in grand style. Incredible pivot front door to formal entry & spacious formal living rm & walls of glass to stunning views. The natural light enhances a stunning kitchen, dining area, & family rm that combine for a magnificent great rm. The kitchen is complete w/long center island, quartz countertops, & professional Miele appliances. The exceptional master suite w/large walk-in closet & luxurious bath w/dual vanity, soaking tub, & steam shower. 3 add'l bdrm suites. Yard is complete w/patios, viewing pavilion, grass area, fire pit, & sparkling pool & spa, all overlooking the shimmering vistas.  Also available for lease, asking $49,500/month.SHARE PROPERTY",
+        "img": "https://i.ibb.co/5Yg8H2r/property2.jpg"
+    },
+    {
+        "_id": "6258c4545bc6c5c0bf21af5c",
+        "name": "33218 PACIFIC COAST HWY",
+        "price": "99,500,000",
+        "details": "Extraordinary Malibu Compound set on over 3 acres of manicured grounds with private path to the beach and endless sunrise-to-sunset ocean views. Very private and secluded, this beach-side oasis is perched above the rolling waves and expansive white sands of El Sol Beach. Enter through the front gate to the long driveway that winds past the tennis court and leads to the dazzling two-story home. This Contemporary Villa has been completely renovated and offers a chic style and serene setting with the ultimate indoor/outdoor flow. The main floor is complete with great room combining the living room, den, dining area, and gourmet kitchen and featuring floor-to-ceiling sliding glass doors showcasing intoxicating panoramic views and opening to the expansive wrap-around deck with fire pit. The spacious master suite features a fireplace, sitting area, dual spa-like bathrooms and walk-in closet. There are two additional en-suite bedrooms, a media room, light and bright gym with vaulted ceilings, and fourth bedroom with private entrance, kitchen, and bathroom. The fabulous pool, spa, pool deck and cabana with fireplace provide the ideal space for entertaining and enjoying the unsurpassed natural beauty of the surroundings and encompassing ocean views.",
+        "img": "https://i.ibb.co/L07LZvC/property3.jpg"
+    },
+    {
+        "_id": "6258c4544f1ad2a1380dc100",
+        "name": "BEVERLY HILLS CHATEAU",
+        "price": "73,000,000",
+        "details": "An estate of incomparable grandeur and palatial elegance, this gated residence sits on over 1.5 flat acres on one of the most coveted streets in Beverly Hills. Magnificent in scale and unstinting in luxury, the property is created for living and entertaining on a grand scale.",
+        "img": "https://i.ibb.co/Zcf8HQK/property4.jpg"
+    },
+    {
+        "_id": "6258c45407b8587805060876",
+        "name": "607 N ELM DR",
+        "price": "12,995,000",
+        "details": "Completely renovated Contemporary masterpiece located in the highly coveted Beverly Hills Flats. This new home leaves nothing to be desired. Wide plank white oak hardwood floors welcome you as you enter this estate. The chef's kitchen w/custom cabinetry, new appliances, & large island w/breakfast bar opens to a large family room & dining room w/great natural light, all leading to the sprawling backyard featuring a brand new swimmer's pool, spa, BBQ & pizza oven. The large formal step-down living room w/fireplace is an entertainer's dream. Continue upstairs to find 4 large bedrooms, including the primary suite w/spacious dual bathrooms & closets. The guest house comes equipped w/kitchenette, bedroom & full bathroom. The additional maid's quarters downstairs makes for practical living. The property also includes pool house w/full bathroom. Upstairs laundry room, detached 2-car garage, & new roof, electrical, plumbing, & HVAC are all part of this 2+ year renovation.",
+        "img": "https://i.ibb.co/N2YSkhT/property5.jpg"
+    },
+    {
+        "_id": "6258c45416f1d1ff55f3b673",
+        "name": "435 GEORGINA AVE",
+        "price": "8,995,000",
+        "details": "2 blocks from the Ocean on prestigious 400 block of Georgina. Over 1/2 acre. Originally built in 1913, this classic Craftsman has been restored with all new baths and updated kitchen. Period details abound. High ceilings and spectacular natural light. Large living room opens to sun room then on to massive rear yard. 5 bedrooms in total with 4 upstairs. A rare opportunity in the heart of Santa Monica.",
+        "img": "https://i.ibb.co/7tKtfQg/property6.jpg"
+    }
+]

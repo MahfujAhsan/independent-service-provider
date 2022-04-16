@@ -1,0 +1,27 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #537A5A;
+    width: 90%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.brand-logo img{
+    width: 40%;
+    border-radius: 15px;
+}
+.nav-links a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    border: 3px solid #2C302E;
+    border-radius: 8px;
+}
