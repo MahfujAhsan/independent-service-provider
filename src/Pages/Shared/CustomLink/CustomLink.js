@@ -7,13 +7,12 @@ function CustomLink({ children, to, ...props }) {
     return (
       <div>
         <Link
-          style={{ textDecoration: match ? "underline" : "none" }}
+          style={{ border: match ? "3px solid #2C302E" : "none" }}
           to={to}
           {...props}
         >
           {children}
         </Link>
-        {match && " (active)"}
       </div>
     );
   }
