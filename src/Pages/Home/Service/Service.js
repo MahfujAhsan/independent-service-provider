@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 
 const Service = ({ service }) => {
-    const { _id, name, price, img, details } = service;
+    const { name, price, img, details } = service;
     const text = details;
     const [isReadMore, setIsReadMore] = useState(true);
     const toggleReadMore = () => {
