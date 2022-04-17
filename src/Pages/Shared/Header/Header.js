@@ -13,7 +13,7 @@ const Header = () => {
     const [showLinks, setShowLinks] = useState(false);
     const [user] = useAuthState(auth);
 
-    const handleSignout = () => {
+    const handleSignOut = () => {
         signOut(auth);
     };
     return (
@@ -26,12 +26,12 @@ const Header = () => {
             <div className="nav-links" id={showLinks ? "hidden" : ""}>
                 <CustomLink to="/blogs">Blogs</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
-                <div className='signin-signout-btn'>
+                <div className='login-logout-btn'>
                     {
                         user ?
-                            <Link onClick={handleSignout} to="signin"><FontAwesomeIcon className='signout-icon' icon={faSignOut} />SignOut</Link>
+                            <Link onClick={handleSignOut} to="/login"><FontAwesomeIcon className='logout-icon' icon={faSignOut} />SignOut</Link>
                             :
-                            <Link to="signin"><FontAwesomeIcon className='signin-icon' icon={faSignIn} />Login</Link>
+                            <Link to="/login"><FontAwesomeIcon className='login-icon' icon={faSignIn} />Login</Link>
                     }
                 </div>
             </div>

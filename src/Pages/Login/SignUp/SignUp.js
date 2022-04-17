@@ -7,13 +7,21 @@ import auth from '../../../firebase.init';
 const SignUp = () => {
     const [createUserWithEmailAndPassword, user, loading, error] = useCreateUserWithEmailAndPassword(auth);
     const navigate = useNavigate();
-    const handleRegister = async (e) => {
+
+    const navigateLogin = () => {
+        navigate('/login');
+    };
+
+    if(user) {
+        navigate('/');
+    }
+
+    const handleRegister = e => {
         e.preventDefault();
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-        await createUserWithEmailAndPassword(email, password);
-        navigate('/')
+        createUserWithEmailAndPassword(email, password);
     }
     return (
         <div className='signup-container'>

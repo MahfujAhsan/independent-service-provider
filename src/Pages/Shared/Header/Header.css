@@ -32,13 +32,13 @@
     display: flex;
 }
 
-.signin-signout-btn a{
+.login-logout-btn a{
     border: 3px solid #fff;
 }
-.signin-icon{
+.login-icon{
     margin-right: 15px;
 }
-.signout-icon{
+.logout-icon{
     margin-right: 15px;
 }
 

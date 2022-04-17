@@ -1,4 +1,4 @@
-.signin-container {
+.login-container {
     height: 85vh;
     width: 90%;
     margin: auto;
@@ -52,6 +52,13 @@
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
 }
+.register-text small {
+    color: rgb(126, 0, 0);
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+}
+
 .navigate-register-text {
     margin-left: 10px;
     font-weight: 600;
