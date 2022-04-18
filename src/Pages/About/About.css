@@ -1,8 +1,34 @@
 .about-container {
-    height: 50vh;
+    width: 100%;
 }
 
 .about-container img{
-    height: 50vh;
-    width: 100%
+    width: 100%;
+    border-radius: 20px;
+}
+
+.dream-container {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 35px;
+    width: 80%;
+    margin: auto;
+}
+
+.dream-container h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #8B9CF6;
+    letter-spacing: 0.3rem;
+}
+
+.dream-container p {
+    font-size: 22px;
+    line-height: 1.5rem;
+}
+
+.dream-container p small {
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(206, 2, 206);
 }
