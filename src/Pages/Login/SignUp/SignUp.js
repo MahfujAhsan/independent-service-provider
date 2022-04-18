@@ -6,7 +6,7 @@ import auth from '../../../firebase.init';
 import LoadingSpinner from '../../Shared/LoadingSpinner/LoadingSpinner';
 
 const SignUp = () => {
-    const [createUserWithEmailAndPassword, user, loading, error] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
+    const [createUserWithEmailAndPassword, loading] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     const [updateProfile, updating] = useUpdateProfile(auth);
     const navigate = useNavigate();
 

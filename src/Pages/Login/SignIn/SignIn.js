@@ -20,17 +20,12 @@ const SignIn = () => {
 
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
-
-    if(auth.user) {
-        localStorage.setItem(auth.stt)
-    }
-
     if (loading || sending) {
         return <LoadingSpinner></LoadingSpinner>
     }
 
-
     if (error) {
+        <LoadingSpinner></LoadingSpinner>
         errorElement = <p>Error: {error?.message}</p>
     }
 
