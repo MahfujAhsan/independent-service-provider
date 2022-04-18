@@ -2,7 +2,8 @@
 
 ## [JADE MILLS | Real Estate Agent & Realtor](https://jade-mills-real-estate-agent.web.app/)
 
-### `Visit Link: (firebase hosting domain):` https://jade-mills-real-estate-agent.web.app/
+### `Visit Link: (firebase hosting domain):`
+https://jade-mills-real-estate-agent.web.app/
 
 <br>
 
@@ -10,7 +11,8 @@
 
 ## [GitHub](https://github.com/facebook/create-react-app)
 
-### `Private Repo Link:` https://github.com/programming-hero-web-course-4/independent-service-provider-MahfujAhsan
+### `Private Repo Link:`
+https://github.com/programming-hero-web-course-4/independent-service-provider-MahfujAhsan
 
 <br>
 
