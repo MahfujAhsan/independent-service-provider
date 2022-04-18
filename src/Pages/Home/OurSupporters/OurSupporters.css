@@ -1,0 +1,24 @@
+.carousel-container {
+    width: 90%;
+    margin: auto;
+}
+.carousel-title {
+    text-align: center;
+    border-bottom: 3px solid #00ad09;
+    width: 400px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding-bottom: 5px;
+}
+.carousel-container img{
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.carousel-container div {
+    margin: 20px;
+}
