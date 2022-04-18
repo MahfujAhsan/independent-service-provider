@@ -26,4 +26,7 @@
         width: 90%;
         margin: auto;
     }
+    .service-title {
+        width: 200px;     
+    }
 }

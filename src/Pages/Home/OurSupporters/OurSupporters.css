@@ -22,3 +22,9 @@
 .carousel-container div {
     margin: 20px;
 }
+
+@media only screen and (max-width: 765px) {
+    .carousel-title {
+        width: 200px;
+    }
+}
