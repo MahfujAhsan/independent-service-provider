@@ -35,3 +35,4 @@ https://github.com/programming-hero-web-course-4/independent-service-provider-Ma
 * React FontAwesome (As Icon Library) - (v5.15.4)
 * React FireBase Hooks (Library Reusable for FireBase) - (v5.0.3)
 * React Multi Carousel (React Carousel Component) - (v3.0)
+* React Responsive Carousel (React Carousel Component) - (v3.2.23)
