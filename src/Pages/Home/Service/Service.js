@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./Service.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
+import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
 
 const Service = ({ service }) => {
     const { name, price, img, details } = service;
@@ -26,7 +26,7 @@ const Service = ({ service }) => {
                 </p>
             </div>
             <Link to="checkout">
-                <button className='checkout-btn'><FontAwesomeIcon className='info-icon' icon={faCircleInfo}></FontAwesomeIcon>More Details</button>
+                <button className='checkout-btn'><FontAwesomeIcon className='info-icon' icon={faShoppingBasket}></FontAwesomeIcon>CHECKOUT</button>
             </Link>
         </div>
     );

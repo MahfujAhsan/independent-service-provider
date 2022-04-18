@@ -27,3 +27,10 @@
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
+
+@media only screen and (max-width: 765px) {
+    .banner-content h2{
+        font-size: 52px;
+        text-align: center;
+    }
+}
