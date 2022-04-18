@@ -1,9 +1,10 @@
 import React from 'react';
+import profile from "../../media/images/profile.png"
 
 const About = () => {
     return (
-        <div>
-            <h2>About</h2>
+        <div className='about-container'>
+            <img src={profile} alt="" />
         </div>
     );
 };
