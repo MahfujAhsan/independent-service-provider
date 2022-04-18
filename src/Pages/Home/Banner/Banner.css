@@ -1,31 +1,32 @@
-.banner-container {
-    background-image: url(../../../media//images/banner.png), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.banner-container img{
     height: 80vh;
     border-radius: 8px 0 8px 0;
 }
-.banner-content{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-.banner-content h2{
-    margin: 0;
-    font-size: 72px;
+
+
+.carousel-items .banner-content {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 45px;
 }
-.banner-content p{
-    font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
+
+.carousel-items .banner-content h2 {
+    font-size: 58px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.carousel-items .banner-content p {
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 765px) {
