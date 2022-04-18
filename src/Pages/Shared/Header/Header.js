@@ -28,6 +28,10 @@ const Header = () => {
                 <CustomLink to="/about">About</CustomLink>
                 <div className='login-logout-btn'>
                     {
+                        !user ?
+                            <Link to="/signup">Sign Up</Link> : ""
+                    }
+                    {
                         user ?
                             <Link onClick={handleSignOut} to="/login"><FontAwesomeIcon className='logout-icon' icon={faSignOut} />SignOut</Link>
                             :

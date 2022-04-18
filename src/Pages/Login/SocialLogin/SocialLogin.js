@@ -26,7 +26,7 @@ const SocialLogin = () => {
                 <p className='or'>or</p>
                 <div className="horizontal-line"></div>
             </div>
-            {errorElement}
+            <p className='error-text'>{errorElement}</p>
             <div className='google-container'>
                 <button onClick={() => signInWithGoogle()} className=''>
                     <img className='google-image' src={google} alt="" />

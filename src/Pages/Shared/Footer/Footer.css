@@ -1,0 +1,45 @@
+.footer-parent{
+    width: 100%;
+    background-color: #000;
+    margin-top: 35px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    width: 70%;
+    margin: auto;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-container h2{
+    font-size: 18px;
+}
+.footer-container p{
+    font-size: 18px;
+    font-style: italic;
+}
+.footer-container iframe {
+    border-radius: 5px;
+}
+.footer-image{
+    
+    display: flex;
+    justify-content: center;
+}
+.footer-image img{
+    width: 400px;
+}
+.social-icons {
+    text-align: center;
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+.social-icons > a{
+    margin: 20px;
+}

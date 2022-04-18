@@ -19,8 +19,17 @@
 }
 .google-container button{
     padding: 10px 30px 10px 30px;
+    border: 2px solid #000;
+    border-radius: 8px 0 8px 0;
+    cursor: pointer;
 }
 .google-container button span {
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.error-text {
+    color: rgb(154, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
 }

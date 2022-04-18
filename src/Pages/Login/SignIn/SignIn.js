@@ -13,20 +13,22 @@ const SignIn = () => {
     const passwordRef = useRef('');
     const navigate = useNavigate();
     const location = useLocation();
+    let from = location.state?.from?.pathname || "/";
     let errorElement;
 
-    let from = location.state?.from?.pathname || "/";
-
     const [signInWithEmailAndPassword, user, loading, error,] = useSignInWithEmailAndPassword(auth);
+
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
+
+    if(auth.user) {
+        localStorage.setItem(auth.stt)
+    }
 
     if (loading || sending) {
         return <LoadingSpinner></LoadingSpinner>
     }
 
-    if (user) {
-        navigate(from, { replace: true });
-    };
 
     if (error) {
         errorElement = <p>Error: {error?.message}</p>
@@ -38,6 +40,12 @@ const SignIn = () => {
         const password = passwordRef.current.value;
         signInWithEmailAndPassword(email, password);
     };
+
+    if (user) {
+        navigate(from, { replace: true });
+    };
+
+
     const navigateRegister = () => {
         navigate('/signup');
     };
