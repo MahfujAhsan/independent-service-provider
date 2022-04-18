@@ -10,7 +10,7 @@
 }
 .form-container {
     text-align: center;
-    width: 35%;
+    width: 45%;
     margin: auto;
 }
 .input-field-container{
@@ -73,4 +73,23 @@
     font-weight: 700;
     letter-spacing: 0.1rem;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-container {
+        height: 90vh;
+        width: 100%;   
+    }
+    .form-container {
+        width: 65%;   
+    }
+    .input-field-container input {
+        font-size: 32px;   
+    }
+    .reset-btn{
+        font-size: 32px;
+    }
+    .register-text small {
+        font-size: 32px;
+    }
 }

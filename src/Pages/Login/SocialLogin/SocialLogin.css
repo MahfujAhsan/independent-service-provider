@@ -33,3 +33,16 @@
     font-size: 18px;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 768px) {
+    .error-text {
+        font-size: 32px;
+    }
+    .google-container button span {
+        font-size: 36px;
+    }
+    .google-image {
+        width: 30px;
+        margin-right: 10px;
+    }
+}

@@ -61,3 +61,21 @@
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+@media only screen and (max-width: 768px) {
+    .signup-container {
+        height: 90vh;
+        width: 100%;
+    }
+    .signup-form-container {
+        text-align: center;
+        width: 65%;
+        margin: auto;
+    }
+    .signup-input-field-container input {
+        font-size: 32px; 
+    }
+    .login-text {
+        font-size: 32px;
+    }
+}

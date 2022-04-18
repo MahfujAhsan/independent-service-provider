@@ -32,3 +32,13 @@
     font-weight: 700;
     color: rgb(206, 2, 206);
 }
+
+@media only screen and (max-width: 768px) {
+    .dream-container h2 {
+        font-size: 45px;
+    }
+    .dream-container p {
+        font-size: 22px;
+        line-height: 1.7rem;
+    }
+}
